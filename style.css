@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f3ff;
+    height: 99vh;
+}
+.maquette{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+   height: 99vh;
+   width: 100%;
+   background-color: #EBE7FB;
+}
+.free{
+    background-color: #ffffff;
+    color: #000;
+    height: 500px;
+    width: 250px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+}
+.pro{
+    background-color: #1F2943;
+    color: #FFF;
+    height: 500px;
+    width: 250px;
+    border-radius: 10px;
+}
+ul{
+    list-style: none;
+    margin-top: 80px;
+}
+li{
+    margin-bottom: none;
+}
+.Free h3{
+    padding-left: 35px;
+}
+.free h1{
+    padding-left: 35px;
+}
+.free button{
+    padding: 10px 60px;
+    border-radius: 20px; 
+    color: #FFF;
+    background-color: #1F2943; 
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.pro h3{
+    padding: 35px;
+}
+.pro P{
+    padding-left: 35px;
+}
+.pro h1{
+    padding-left: 35px;
+}
+.pro button{
+    padding: 10px 60px;
+    border-radius: 20px;
+    color: #1F2943;
+    background-color: white;
+    margin-top: 78px;
+    margin-left: 30px;
+    font-weight: bold;
+}
